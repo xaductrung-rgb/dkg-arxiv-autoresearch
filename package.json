@@ -1,0 +1,26 @@
+{
+  "name": "@xaductrung-rgb/dkg-arxiv-autoresearch",
+  "version": "0.1.0",
+  "description": "OriginTrail DKG v10 Autoresearch & LLM-Wiki Ingestion CLI across Working Memory (WM) and Shared Working Memory (SWM)",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "bin": {
+    "dkg-arxiv-autoresearch": "./bin/cli.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/ingestor.test.mjs",
+    "start": "node ./bin/cli.mjs"
+  },
+  "keywords": [
+    "origintrail",
+    "dkg",
+    "dkg-v10",
+    "autoresearch",
+    "llm-wiki",
+    "prov-o",
+    "knowledge-graph"
+  ]
+}
